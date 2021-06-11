@@ -1,0 +1,38 @@
+  *******************************FOOTER*******************
+  
+  
+  
+   <p>
+                <h1>A propos</h1>
+                <h2>
+                    <ul>
+                        <li> <a href="a"  class=button>Fonctionnement du site</a> </li> 
+                        <li> <a href="a"  class=button>Condition général des ventes</a> </li> 
+                        <li> <a href="a"  class=button>Données et confidentialités</a> </li> 
+                            
+                    </ul>
+                </h2>
+            </p>
+
+
+            <p>
+                <h1>Nos hébergements</h1>
+                <h2>
+                    <ul>
+                        <li> <a href="a"  class=button>Charte qualité</a> </li> 
+                        <li> <a href="a"  class=button>Soumettre votre hôtel</a> </li>                        
+                            
+                    </ul>
+                </h2>
+            </p>
+         
+            <p>
+                <h1>Assistance</h1>
+                <h2>
+                    <ul>
+                        <li> <a href="a"  class=button>Centre d'aide</a> </li> 
+                        <li> <a href="a"  class=button>Nous contacter</a> </li>                        
+                            
+                    </ul>
+                </h2>
+            </p>

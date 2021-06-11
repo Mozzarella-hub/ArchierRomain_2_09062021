@@ -1,3 +1,9 @@
 styles.css
 h1
-{color: blue;}
+{color: green;}
+
+
+td /* Toutes les cellules des tableaux... */
+{
+    border: 1px solid black; /* auront une bordure de 1px */
+}
