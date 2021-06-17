@@ -1,26 +1,9 @@
         /*******/
 /******SYNTHAXE TEXTE******/
         /*******/
-.p
-{
 
-}
 
-.texte_gras
-{
 
-}
-
-.prix
-{
-    font-weight:bold;
-}
-
-/*Icône Populaire*/
-.fas 
-{
-
-}
 
 
         /********/
@@ -29,9 +12,55 @@
 .body
 {
     background-color: white;
-    display: flex;
-    align-content:flex-end;
+    
 }
+
+
+        /*********************/
+            /***HEADER**/
+        /*********************/
+
+
+
+
+       /*********************/
+/***section dessous header jusuq'à footer**/
+        /*********************/
+
+.body_top
+{
+display:flex;
+flex-direction: column;
+}
+
+.body_top_left
+{
+        
+}
+
+.APPART_dessus
+{
+        
+}
+
+.APPART_dessous
+{
+         
+}
+
+.Appart_body_top_right
+{
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -39,56 +68,3 @@
 /*PARTIE APPARTEMENTS*/
     /********/
 
-.bloc_appart
-{
-display: flex;
-background-color: gray;
-
-}
-
-.bloc_hébergement
-{
-background-color: darkgray;
-display: flex;
-flex: 2;
-height: 650px;
-margin-right: 20 px;
-border-radius: 30px;
-
-}
-
-.bloc_populaire
-{
-background-color: darkgray;
-display: flex;
-flex: 1;
-height: 650 px;
-border-radius: 30px;
-}
-
-.bloc_type
-{
-background-image: url(Ressources\images\hebergements\4_small\annie-spratt-Eg1qcIitAuA-unsplash.jpg);
-background-position: center;
-background-size: contain;
-background-repeat: no-repeat;
-border-radius: 15 px;
-margin-left: 1px;
-background-color: white;
-text-align:end;
-}
-
-.bloc_appart2
-{
-
-}
-
-
-     /*******/
-/***PARTIE ACTIVITES***/
-     /*******/
-.bloc_activites
-{
-    display: flex;
-    background-color: gray;
-}
