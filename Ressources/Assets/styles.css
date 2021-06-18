@@ -258,3 +258,200 @@ text-size-adjust: 70px ;
     text-align: left;
     -moz-box-align: center;
 }
+
+/*--------Appert prestation du haut*/
+
+.body_top
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0.95;
+    flex-shrink: 0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    justify-content: space-around;
+    line-height: 20.0167px;
+    margin-bottom: -1px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -1px;
+    margin-block-end: 20px;
+    min-width: 0px;
+    pointer-events: auto;
+    position: relative;
+    text-align: left;
+    -moz-box-align: center;
+}
+
+
+.body_top_left   
+/*Réorganiser d'ici*/
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0.95;
+    flex-shrink: 0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    justify-content: space-around;
+    line-height: 20.0167px;
+    margin-bottom: -1px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -1px;
+    margin-block-end: 20px;
+    min-width: 0px;
+    pointer-events: auto;
+    position: relative;
+    text-align: left;
+    -moz-box-align: center;
+    flex-direction: column;
+    
+}
+
+.LES_APPARTS
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0.95;
+    flex-shrink: 0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    justify-content: space-around;
+    flex-direction: column;
+    line-height: 20.0167px;
+    margin-bottom: -1px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -1px;
+    margin-block-end: 20px;
+    min-width: 0px;
+    pointer-events: auto;
+    position: relative;
+    text-align: left;
+    -moz-box-align: center;
+}
+
+
+
+
+.APPART_dessus
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0.95;
+    flex-shrink: 0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    justify-content: space-around;
+    line-height: 20.0167px;
+    margin-block-end: 20px;
+    margin-bottom: 20px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -1px;
+    min-width: 0px;
+    pointer-events: auto;
+    position: relative;
+    text-align: left;
+    -moz-box-align: center
+    align-items: flex-start;
+}
+
+.APPART_dessous
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0.95;
+    flex-shrink: 0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    justify-content: space-around;
+    align-items: flex-end;
+    line-height: 20.0167px;
+    margin-block-end: 20px;
+    margin-bottom: 20px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -1px;
+    min-width: 0px;
+    pointer-events: auto;
+    position: relative;
+    text-align: left;
+    -moz-box-align: center
+}
+
+
+.Appart_body_top_left_ul
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0.95;
+    flex-shrink: 0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    justify-content: space-around;
+    line-height: 20.0167px;
+    margin-block-end: 20px;
+    margin-bottom: 20px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -1px;
+    min-width: 0px;
+    pointer-events: auto;
+    position: relative;
+    text-align: left;
+    -moz-box-align: center
+}
+
+.Appart_body_top_left_dessus
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0.95;
+    flex-shrink: 0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    justify-content: space-around;
+    line-height: 20.0167px;
+    margin-block-end: 20px;
+    margin-bottom: 20px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -1px;
+    min-width: 0px;
+    pointer-events: auto;
+    position: relative;
+    text-align: left;
+    -moz-box-align: center
+}
+
+.Appart_body_top_left_dessous
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0.95;
+    flex-shrink: 0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    justify-content: space-around;
+    line-height: 20.0167px;
+    margin-block-end: 20px;
+    margin-bottom: 20px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -1px;
+    min-width: 0px;
+    pointer-events: auto;
+    position: relative;
+    text-align: left;
+    -moz-box-align: center
+}
