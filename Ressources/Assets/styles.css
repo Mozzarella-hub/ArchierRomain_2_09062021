@@ -1,56 +1,96 @@
-        /*******/
-/******SYNTHAXE TEXTE******/
-        /*******/
-
-
-
-
-
-        /********/
-/******MISE EN FORME SITE*****/
-        /*******/
-.body
+.navtop
 {
-    background-color: white;
-    
+align-items: center
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+display: flex;
+font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+font-size: 13px;
+line-height: 15.6px;
+margin-bottom: 0px;
+margin-left: 396.783px;
+margin-right: 396.783px;
+margin-top: 0px;
+max-width: 1140px;
+padding-bottom: 8px;
+padding-left: 16px;
+padding-right: 16px;
+padding-top: 8px;
+-moz-box-align: center
 }
 
 
-        /*********************/
-            /***HEADER**/
-        /*********************/
-
-
-
-
-       /*********************/
-/***section dessous header jusuq'à footer**/
-        /*********************/
-
-.body_top
+.conteneurreservia
 {
-display:flex;
-flex-direction: column;
+align-items: center;
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+display: flex;
+flex-direction: row;
+flex-grow: 1;
+font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+font-size: 13px;
+line-height: 15.6px;
+padding-bottom: 8px;
+padding-left: 0px;
+padding-right: 16px;
+padding-top: 8px;
+-moz-box-align: center;
+-moz-box-direction: normal;
+-moz-box-flex: 1;
+-moz-box-orient: horizontal
 }
 
-.body_top_left
+.hebergement_activites_sinscrire
 {
-        
+align-items: center;
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+font-size: 25px;
+justify-content: flex-end;
+line-height: 15.6px;
+margin-bottom: 0px;
+margin-left: -8px;
+margin-right: 0px;
+margin-top: -8px;
+-moz-box-align: center;
+-moz-box-direction: normal;
+-moz-box-orient: horizontal;
+-moz-box-pack: end
 }
 
-.APPART_dessus
+.menu_top_right
 {
-        
+justify-content: space-around ;
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+display: flex;
 }
 
-.APPART_dessous
+.Héberbegements_button
 {
-         
+    justify-items: flex-start;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
-.Appart_body_top_right
+.Activités_button
 {
+    justify-items: flex-start;
+    margin-right: 20px;
+    margin-left: 20px;
+}
 
+
+.inscrire_button
+{
+    justify-items: flex-start;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 
@@ -58,13 +98,163 @@ flex-direction: column;
 
 
 
+.Filtres
+{
+    align-items: center;
+    box-sizing: border-box;
+    color: rgb(34, 34, 34);
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0.95;
+    flex-shrink: 0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    line-height: 20.0167px;
+    margin-bottom: -1px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -1px;
+    min-width: 0px;
+    pointer-events: auto;
+    position: relative;
+    text-align: left;
+    -moz-box-align: center;
+    justify-content: space-around;
+}
+
+
+.EFRA.IC
+{
+box-sizing: border-box;
+color: rgb(34, 34, 34);
+flex-basis: auto;
+flex-grow: 0;
+flex-shrink: 0;
+font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+font-size: 14px;
+line-height: 20.0167px;
+margin-left: -6px;
+padding-right: 9px;
+pointer-events: auto;
+position: relative;
+text-align: left;
+z-index: 5
+}
+
+.EFRA_MOM
+{
+align-items: center;
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+font-size: 25px;
+justify-content: flex-end;
+line-height: 15.6px;
+margin-bottom: 0px;
+margin-left: -8px;
+margin-right: 0px;
+margin-top: -8px;
+-moz-box-align: center;
+-moz-box-direction: normal;
+-moz-box-orient: horizontal;
+-moz-box-pack: end
+}
+
+.Iconeflitrerpz
+{
+    box-sizing: border-box;
+    color: rgb(34, 34, 34);
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    line-height: 20.0167px;
+    margin-left: -6px;
+    padding-right: 9px;
+    pointer-events: auto;
+    position: relative;
+    text-align: left;
+    z-index: 5
+    }
 
 
 
+.main_search_filter_icon
+{
+    display: flexbox  
+}
 
+.titre_du_haut
+{
+    box-sizing: border-box;
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    line-height: 20.0167px;
+    margin-left: -6px;
+    margin-block-end: 15px;
+    padding-right: 9px;
+    pointer-events: auto;
+    position: relative;
+    text-align: left;
+    z-index: 5
+}
 
+.Titre_top_search
+{
+box-sizing: border-box;
+text-align: left;
+text-size-adjust: 70px ;
+}
 
-    /********/
-/*PARTIE APPARTEMENTS*/
-    /********/
+.barre_de-recherche
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0.95;
+    flex-shrink: 0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    justify-content: space-around;
+    line-height: 20.0167px;
+    margin-bottom: -1px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -1px;
+    margin-block-end: 20px;
+    min-width: 0px;
+    pointer-events: auto;
+    position: relative;
+    text-align: left;
+    -moz-box-align: center;
+}
 
+.search_bar
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0.95;
+    flex-shrink: 0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    justify-content: space-around;
+    line-height: 20.0167px;
+    margin-bottom: -1px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -1px;
+    margin-block-end: 20px;
+    min-width: 0px;
+    pointer-events: auto;
+    position: relative;
+    text-align: left;
+    -moz-box-align: center;
+}
