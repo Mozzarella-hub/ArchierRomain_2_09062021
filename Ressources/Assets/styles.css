@@ -308,7 +308,9 @@ text-size-adjust: 70px ;
     text-align: left;
     -moz-box-align: center;
     flex-direction: column;
-    
+    background-color: rgba(216, 215, 213, 0.692);
+    border-radius: 20px;
+    flex:2;
 }
 
 .LES_APPARTS
@@ -454,4 +456,90 @@ text-size-adjust: 70px ;
     position: relative;
     text-align: left;
     -moz-box-align: center
+}
+
+.Appart_body_top_right
+{
+    background-color: rgba(216, 215, 213, 0.692);
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0.95;
+    flex-shrink: 0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    justify-content: space-around;
+    line-height: 20.0167px;
+    margin-block-end: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: -1px;
+    margin-top: -1px;
+    min-width: 0px;
+    pointer-events: auto;
+    position:relative;
+    text-align: left;
+    -moz-box-align: center;
+    align-items: flex-end;
+    flex-direction: column;
+    flex: 1;
+}
+
+.haut_des_plus_populaires
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0.95;
+    flex-shrink: 0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    justify-content: center;
+    line-height: 20.0167px;
+    margin-block-end: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: -1px;
+    margin-top: -1px;
+    min-width: 0px;
+    pointer-events: auto;
+    position: relative;
+    text-align: left;
+    -moz-box-align: center;
+    height: 50px;
+}
+
+.Placement_Les_plus_populaires
+{
+
+}
+.Placement_iconechart
+{
+    
+}
+
+.Appart_body_top_right_ul
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0.95;
+    flex-shrink: 0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    justify-content:space-around;
+    line-height: 20.0167px;
+    margin-block-end: 20px;
+    margin-bottom: 20px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -1px;
+    min-width: 0px;
+    pointer-events: auto;
+    position: relative;
+    text-align: left;
+    -moz-box-align: center;
+    flex-direction: column;
+    align-items: flex-end;
 }
