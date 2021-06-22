@@ -506,7 +506,8 @@ text-size-adjust: 70px ;
     pointer-events: auto;
     position: relative;
     text-align: left;
-    -moz-box-align: center;
+    -moz-box-flex: 0; /* Mozilla */
+  -webkit-box-flex: 0; /* WebKit */
     height: 50px;
 }
 
