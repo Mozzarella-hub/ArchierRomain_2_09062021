@@ -1,0 +1,645 @@
+
+/*HEADER*/
+.logo_recherche_flex
+{
+align-items: center;
+display: flex;
+flex-direction: row;
+font-family: Raleway, Arial, Verdana, sans-serif;
+justify-content: space-between;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 40px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 40px
+}
+
+.logo_reservia
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.Nav_top
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Raleway", Arial, Verdana, sans-serif;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px
+}
+
+
+.Hébergements_Activités_Sinscrire
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.Nav_du_haut_fontsize_family
+{
+font-family:'Raleway', Arial Narrow, Arial, sans-serif;
+font-size: 15px;
+color: dodgerblue;
+}
+
+/*********************RECHERCHER*************************/
+
+.Titres_header_barre_recherche_flexcolumn
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.Trouvez_Enplein
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Trouvez
+{
+font-family: "Raleway", Arial, Verdana, sans-serif;
+font-size: 18px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px
+}
+
+
+.Barre_recherche
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    font-size: large;
+    border-radius: 20px;
+}
+
+.logo_gps
+{
+justify-content: space-around;
+background-color: rgb(242, 242, 242);
+border-bottom-left-radius: 10px;
+border-top-left-radius: 10px;
+flex-wrap: wrap;
+height: 40px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+position: relative;
+width: 48.2333px
+}
+
+
+.type-search
+{
+    font-family: "Raleway", Arial, Verdana, sans-serif;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    font-weight:bold
+}
+
+.Rechercher
+{
+background-color: rgb(0, 101, 252);
+border-bottom-color: rgb(0, 0, 0);
+border-bottom-right-radius: 10px;
+border-bottom-style: none;
+border-bottom-width: 0px;
+border-image-outset: 0;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(255, 255, 255);
+border-left-style: none;
+border-left-width: 0px;
+border-right-color: rgb(255, 255, 255);
+border-right-style: none;
+border-right-width: 0px;
+border-top-color: rgb(255, 255, 255);
+border-top-right-radius: 10px;
+border-top-style: none;
+border-top-width: 0px;
+color: rgb(255, 255, 255);
+font-family: "Raleway", Arial, Verdana, sans-serif;
+font-weight: 700;
+height: 40px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+outline-color: rgb(255, 255, 255);
+outline-style: none;
+outline-width: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+width: 78.7667px
+}
+
+/*****FILTRES****/
+
+
+
+
+
+
+
+
+/*--------Appart prestation du haut*/
+
+.body_top
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0.95;
+    flex-shrink: 0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    justify-content: space-around;
+    line-height: 20.0167px;
+    margin-bottom: -1px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -1px;
+    margin-block-end: 20px;
+    min-width: 0px;
+    pointer-events: auto;
+    position: relative;
+    text-align: left;
+    -moz-box-align: center;
+}
+
+
+.body_top_left   
+/*Réorganiser d'ici*/
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0.95;
+    flex-shrink: 0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    justify-content: space-around;
+    line-height: 20.0167px;
+    margin-bottom: -1px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -1px;
+    margin-block-end: 20px;
+    min-width: 0px;
+    pointer-events: auto;
+    position: relative;
+    text-align: left;
+    -moz-box-align: center;
+    flex-direction: column;
+    background-color: rgba(216, 215, 213, 0.692);
+    border-radius: 20px;
+    flex:2;
+}
+
+.LES_APPARTS
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0.95;
+    flex-shrink: 0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    justify-content: space-around;
+    flex-direction: column;
+    line-height: 20.0167px;
+    margin-bottom: -1px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -1px;
+    margin-block-end: 20px;
+    min-width: 0px;
+    pointer-events: auto;
+    position: relative;
+    text-align: left;
+    -moz-box-align: center;
+}
+
+
+
+
+.APPART_dessus
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0.95;
+    flex-shrink: 0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    justify-content: space-around;
+    line-height: 20.0167px;
+    margin-block-end: 20px;
+    margin-bottom: 20px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -1px;
+    min-width: 0px;
+    pointer-events: auto;
+    position: relative;
+    text-align: left;
+    -moz-box-align: center
+    align-items: flex-start;
+}
+
+.APPART_dessous
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0.95;
+    flex-shrink: 0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    justify-content: space-around;
+    align-items: flex-end;
+    line-height: 20.0167px;
+    margin-block-end: 20px;
+    margin-bottom: 20px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -1px;
+    min-width: 0px;
+    pointer-events: auto;
+    position: relative;
+    text-align: left;
+    -moz-box-align: center
+}
+
+
+.Appart_body_top_left_ul
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0.95;
+    flex-shrink: 0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    justify-content: space-around;
+    line-height: 20.0167px;
+    margin-block-end: 20px;
+    margin-bottom: 20px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -1px;
+    min-width: 0px;
+    pointer-events: auto;
+    position: relative;
+    text-align: left;
+    -moz-box-align: center
+}
+
+.Appart_body_top_left_dessus
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0.95;
+    flex-shrink: 0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    justify-content: space-around;
+    line-height: 20.0167px;
+    margin-block-end: 20px;
+    margin-bottom: 20px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -1px;
+    min-width: 0px;
+    pointer-events: auto;
+    position: relative;
+    text-align: left;
+    -moz-box-align: center
+}
+
+.Appart_body_top_left_dessous
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0.95;
+    flex-shrink: 0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    justify-content: space-around;
+    line-height: 20.0167px;
+    margin-block-end: 20px;
+    margin-bottom: 20px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -1px;
+    min-width: 0px;
+    pointer-events: auto;
+    position: relative;
+    text-align: left;
+    -moz-box-align: center
+}
+
+.Appart_body_top_right
+{
+    background-color: rgba(216, 215, 213, 0.692);
+    border-radius: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0.95;
+    flex-shrink: 0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    justify-content: space-around;
+    line-height: 20.0167px;
+    margin-block-end: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: -1px;
+    margin-top: -1px;
+    min-width: 0px;
+    pointer-events: auto;
+    position:relative;
+    text-align: left;
+    -moz-box-align: center;
+    align-items: flex-end;
+    flex-direction: column;
+    flex: 1;
+}
+
+.haut_des_plus_populaires
+{
+    box-sizing: border-box;
+    display: flex;
+    
+    flex-wrap: wrap;
+    flex-basis: auto;
+    flex-grow: 0.95;
+    flex-shrink: 0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    justify-content: center;
+    line-height: 20.0167px;
+    margin-block-end: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: -1px;
+    margin-top: -1px;
+    min-width: 0px;
+    pointer-events: auto;
+    position: relative;
+    text-align: left;
+    -moz-box-flex: 0; /* Mozilla */
+  -webkit-box-flex: 0; /* WebKit */
+    height: 50px;
+}
+
+.Appart_body_top_right_ul
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0.95;
+    flex-shrink: 0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    justify-content:space-around;
+    line-height: 20.0167px;
+    margin-block-end: 20px;
+    margin-bottom: 20px;
+    margin-left: -1px;
+    margin-right: -1px;
+    margin-top: -1px;
+    min-width: 0px;
+    pointer-events: auto;
+    position: relative;
+    text-align: left;
+    -moz-box-align: center;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.section_Bloc_activités
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Bloc_activités
+{
+background-color: rgb(255, 255, 255);
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+font-family: "Raleway", Arial, Verdana, sans-serif;
+margin-bottom: 60px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+max-width: 1350px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px
+}
+
+.titre_Activités
+{
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 50px;
+    line-height: 20.0167px;
+    pointer-events: auto;
+    text-align: left
+}
+
+
+.bas_bloc_activité
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: Raleway, Arial, Verdana, sans-serif;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px
+}
+
+
+.Les_2_activités
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+    font-family: Raleway;
+    justify-content: space-between;
+}
+
+.Activité1
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.Activité2
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+
+/*FOOTER*/
+
+.Bloc_footer_dimension
+{
+width: 100%;
+justify-content: center;
+}
+
+.Bloc_footer_flebox
+{
+justify-content: center;
+box-sizing: border-box;
+color: rgb(72, 72, 72);
+display: flex;
+flex-direction: row;
+font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+font-size: 14px;
+line-height: 20.0167px;
+margin-left: -12px;
+margin-right: -12px;
+padding-bottom: 48px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 48px;
+-moz-box-direction: normal;
+-moz-box-orient: horizontal
+
+}
+
+.Section_a_propos
+{
+border-bottom-color: rgb(72, 72, 72);
+border-bottom-style: none;
+border-bottom-width: 0px;
+box-sizing: border-box;
+color: rgb(72, 72, 72);
+flex-basis: 0%;
+flex-grow: 1;
+flex-shrink: 0;
+font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+font-size: 14px;
+line-height: 20.0167px;
+margin-bottom: 0px;
+padding-bottom: 0px;
+padding-left: 12px;
+padding-right: 12px
+}
+
+.A_propos_h3
+{
+    box-sizing: border-box;
+    color: rgb(34, 34, 34);
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 12px;
+    line-height: 17.1667px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-transform: uppercase
+}
+
+
+
+.A_propos_ul
+{
+    box-sizing: border-box;
+    color: rgb(72, 72, 72);
+    display: block;
+    flex-wrap: wrap;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    line-height: 20.0167px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+
+.Fonctionnement_du_site  
+{
+box-sizing: border-box;
+color: rgb(72, 72, 72);
+flex-basis: 33.3333%;
+font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+font-size: 14px;
+line-height: 20.0167px;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+margin-top: 16px;
+padding-left: 0px;
+padding-right: 0px;
+}
+
+
+
+/************************MISE EN FORME*****************************/
+
