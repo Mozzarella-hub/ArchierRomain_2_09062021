@@ -157,7 +157,8 @@
 {
     align-items: center;
     display: flex;
-    flex-direction: row
+    flex-direction: row;
+    margin-bottom: 5px;
 }
 
 .filtres_bold 
@@ -182,19 +183,20 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 80%;
 }
 
 .filtre-borderpx-radius-icone-wrap
 {
-    display: flex;
-    flex-direction: row;
-    margin-left: 20px;
-    width: 20px;
-    justify-content: space-between;
-    background-color: #a8afb5;
-    border-radius: 50px;
+    background-color: rgb(222, 235, 255);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 50px;
+    width: 50px
+    
 }
-
 
 
 .border-filtre-solid
@@ -202,19 +204,27 @@
     border: 2px solid #d9d9d9;
     border-radius: 50px;
     width: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50px;
 }
 
 
 .icone-filtre
 {
-
+    width: 30px;
+    height: 30px;
+    margin-left: 9px;
+    margin-top: 9px;
 }
 
 .categorie-filtre
 {
     font-size: 20px;
     font-weight: bold;
-    margin-left: 30px;
+    margin-left: 36px;
+    margin-top: 13px;
 }
 
 /*--------Appart prestation du haut*/
