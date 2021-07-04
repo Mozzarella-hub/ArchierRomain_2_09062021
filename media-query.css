@@ -2,7 +2,7 @@
 /*Commentaire-sur le media and with max*/
         /*******************/
 
-@media screen and (max-width: 750px)
+@media screen (max-width: 750px)
 
 {
     
@@ -23,12 +23,11 @@ flex-direction: row;
 margin-right: 2em;
 }
 
-
 .logo_recherche_flex {
     align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     padding-top: 2%;
 }
 
@@ -141,45 +140,101 @@ margin-bottom: 50px;
 
 .body-top {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: auto;
-    align-items: center;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: space-around;
 }
 
 .Hebergement {
     background-color: #f2f2f2;
-    display: flex;
-    flex-direction: column;
-    border-radius: 2em;
-    width: 17em;
-align-items: center;
-padding: 4px
+display: flex;
+flex-direction: column;
+border-radius: 1em;
+padding-left: 2%;
+padding-right: 2%;
 }
 
 .Marseille {
-    font-size: 18px;
-    margin-top: 6%;
+    margin-top: 4%;
 font-family: 'Raleway', sans-serif;
 font-weight: bold;
+font-size: x-large;
+margin-left: 2%;
+margin-bottom: 3%;
 }
 
 .hebergement-du-haut {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 3%;
-    width: -moz-available;
+flex-direction: row;
+justify-content: space-between;
+margin-bottom: 1%;
 }
 
 .backgroung-hebergement {
-        background-color: white;
-        padding: 1%;
-        border-radius: 1em;
-        width: auto;
-        margin: 4px;
+    background-color: white;
+    padding: 1%;
+    width: 30%;
+    height: auto;
+    border-radius: 1em;
     }
+
+.img-hebergement-1{
+background-image: url(Ressources/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+width: 100%;
+height: 120px;
+background-size: cover;
+background-position: center;
+border-radius: 1em 1em 0 0;
+}
+
+.img-hebergement-2{
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1em 1em 0 0;
+}
+
+.img-hebergement-3{
+width: 100%;
+height: 120px;
+background-size: cover;
+background-position: center;
+border-radius: 1em 1em 0 0;
+}
+
+.hebergement-du-bas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1%;
+    height: auto;
+}
+
+.img-hebergement-4{
+width: 100%;
+height: 120px;
+background-size: cover;
+background-position: center;
+border-radius: 1em 1em 0 0;
+}
+
+.img-hebergement-6{
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1em 1em 0 0;
+}
+
+.img-hebergement-6{
+        width: 100%;
+        height: 120px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 1em 1em 0 0;
+}
+
 
 .hebergement-du-bas {
     display: flex;
@@ -189,6 +244,109 @@ font-weight: bold;
     width: -moz-available;
 }
 
+
+
+/***********************POPULAIRE**********************/
+.Appart-populaire
+{
+    background-color: #f2f2f2;
+display: flex;
+flex-direction: column;
+border-radius: 1em;
+padding: 1%;
+justify-content: space-between;
+margin-top: 2%;
+}
+
+.titre-logo-populaire-row
+{
+    display: flex;
+justify-content: space-between;
+margin-left: 3%;
+align-items: center;
+}
+
+.Les-plus-populaires {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+
+
+.les-apparts-populaires {
+    background-color: white;
+    padding: 1%;
+    width: 30%;
+    height: auto;
+    border-radius: 1em;
+}
+
+.informations-populaires {
+    width: 100%;
+    margin-left: 6%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.img-populaire-1 {
+
+    width: 100%;
+    height: 7em;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1em 1em 0 0;
+    object-fit: cover;
+}
+
+.img-populaire-2
+{
+    width: 100%;
+    height: 7em;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1em 1em 0 0;
+    object-fit: cover;
+}
+
+.les-apparts-populaires2
+{
+    background-color: white;
+    padding: 1%;
+    width: 30%;
+    height: auto;
+    border-radius: 1em;
+}
+
+.logo-chart {
+    width: 5%;
+height: auto
+object-fit: cover;
+margin-right: 3%;
+}
+
+lestobepopulaires{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-bottom: 2%;
+}
+
+
+
+
+.Les-plus-populaires {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+
+
+
+/*************ACTIVITES***********/
 .section-Bloc-activités
 {
     display: flex;
