@@ -2,18 +2,26 @@
 
 .style-header
 {
-    margin-left: 4%;
+    margin-left: 0%;
 }
 
 .logo_recherche_flex 
 {
-    align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 2%;
-
 }
+
+.logo-signup
+{
+    display: flex;
+flex-direction: row;
+align-content: flex-start;
+align-items: center;
+justify-content: space-between;
+}
+
 
 .logo_reservia {
     display: flex;
@@ -21,10 +29,22 @@
     align-items: flex-start;
 }
 
+/* .signup 
+{
+
+}
+  */
 
 .hebergements-activites-sinscrire
 {
-    margin-right: 5%;
+    
+}
+
+.heb-activ
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 
@@ -41,7 +61,8 @@
     padding-bottom: 0px;
     padding-left: 0px;
     padding-right: 0px;
-    padding-top: 0px
+    padding-top: 0px;
+    align-items: center;
 }
 
 .Hébergements_Activités_Sinscrire {
@@ -204,8 +225,10 @@ font-weight: bold;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
     height: 50px;
-    width: 50px
-    
+    width: 50px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
 }
 
 
@@ -242,7 +265,10 @@ margin-right: 20px;
 {
     display: flex;
     flex-direction: row;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
+
 
 
 .information
@@ -281,6 +307,7 @@ justify-content: space-around;
     width: 30%;
     height: auto;
     border-radius: 1em;
+    box-shadow: 0 0 20px #0000002e;
 }
 
 .img-hebergement-1
@@ -364,7 +391,7 @@ justify-content: space-around;
 .information-hebergement
 {
     width: 90%;
-    information-hebergement;
+    /* information-hebergement; */
 }
 
 
@@ -419,6 +446,7 @@ justify-content: space-around;
     display: flex;
     border-radius: 1em;
     padding: 2%;
+    box-shadow: 0 0 20px #0000002e;
 }
 
 .les-apparts-populaires2
@@ -432,6 +460,9 @@ padding: 2%;
 margin-top: 14%;
 margin-bottom: 14%;
 padding: 2%;
+box-shadow: 0 0 20px #0000002e;
+}
+
 
 .img-populaire-1
 {
@@ -453,7 +484,7 @@ background-size: cover;
 background-position: center;
 border-radius: 1em 0 0 1em;
 object-fit: cover;
-    margin-top: %;
+    margin-top: 0%;
     margin-bottom: 0%;
 }
 
@@ -479,7 +510,7 @@ object-fit: cover;
     flex-wrap: wrap;
 }
 
-.h3-populaire
+/* .h3-populaire
 {
 
 }
@@ -487,7 +518,7 @@ object-fit: cover;
 .prix-populaire
 {
 
-}
+} */
 
 
   /****************************/
@@ -513,12 +544,6 @@ object-fit: cover;
     max-width: 1350px;
 }
 
-
-
-
-
-
-
 .Bloc-activités 
 {
     display: flex;
@@ -534,12 +559,13 @@ object-fit: cover;
     float: left;
 }
 
-.activite1
+.actvite-num-1
 {
     box-shadow: 0 0 20px #0000002e;
     padding: 0px 0px 20px 0px;
     border-radius: 20px;
     margin: 0px 0px 20px 0px;
+    width: 25%;
 }
 
 .photo-activite1
@@ -683,7 +709,7 @@ footer .Bloc_footer_dimension
     box-sizing: border-box;
     color: rgb(34, 34, 34);
     font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
-    font-size: medium,
+    font-size: medium;
     line-height: 17.1667px;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -842,8 +868,8 @@ margin-top: 7%;
 
 .centrage-filtre
 {
-    margin-left: 26%;
-    margin-top: 31%;
+    margin-left: 0%;
+    margin-top: 0%;
 }
 
 
@@ -862,4 +888,15 @@ margin-top: 7%;
 .p-txte 
 {
     font-size: small
+}
+
+.categorie-filtre:hover
+{
+    text-decoration: underline;
+    color: green;
+}
+
+.prix-optim-bloc
+{
+    
 }
