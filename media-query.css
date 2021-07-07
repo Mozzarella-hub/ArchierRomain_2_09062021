@@ -2,21 +2,27 @@
 /*Commentaire-sur le media and with max*/
         /*******************/
 
-@media screen and (max-width: 750px)
-
-{
     
 /******** iphone 6-7-8 ios11++ *******/
 
-.h1, h2, h3, p 
-{
-    font-family: 'Raleway', Arial, Verdana, sans-serif
-}
+
 
 
 /****************************************/
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 475px) {
+
+  .h1, h2, h3, p 
+  {
+      font-family: 'Raleway', Arial, Verdana, sans-serif
+  }
+
+
+.marseille-titre
+{
+  margin-left: 3%;
+}
+
 
 .style-header {
     margin-left: 0%;
@@ -31,12 +37,29 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 0%;
+  margin-top: 10%;
 }
 
 .logo_reservia {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 0px;
+  width: 97px;
+  height: 0px;
+  margin-left: -26%;
+  margin-right: 22%;
+  flex-shrink: 1;
 }
+
+.hebergements-activites-sinscrire
+{
+  margin-top: -10%;
+  flex-shrink: 1;
+}
+
+
 
 .Trouvez {
   font-family: "Raleway", Arial, Verdana, sans-serif;
@@ -73,7 +96,8 @@ width: 10em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 30%;
+  margin-top: 21%;
+margin-left: 18%;
 }
 
 .Titres_header_barre_recherche_flexcolumn {
@@ -83,6 +107,58 @@ width: 10em;
   margin-bottom: 5%;
 }
 
+
+
+/*******************FILTRE***********/
+.Filtres_flexrow {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+
+.filtres_bold {
+  font-weight: bold;
+  font-size: large;
+  margin-right: 75%;
+}
+
+.bloc-filtres-wrap-4items
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.border-filtre-solid {
+  border: 2px solid #d9d9d9;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-left: 25px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+.categorie-filtre {
+  font-size: large;
+  font-weight: bold;
+  margin-top: 13px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.filtre-borderpx-radius-icone-wrap
+{
+  margin-bottom: 1%;
+}
+
+.information {
+  padding: 18px;
+}
 
 /*****HEBERGEMENT-----POPULAIRE****/
 
@@ -101,15 +177,20 @@ width: 10em;
   height: auto;
   border-radius: 1em;
   box-shadow: 0 0 20px #0000002e;
-  margin-bottom: 3%;
+  margin-bottom: -10px;
 }
 
 .Hebergement
 {
+  background-color: white;
   display: flex;
   flex-direction: column;
   border-radius: 2em;
   padding: 1%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  order: 1;
+  width: 97%;
 }
 
 .hebergement-du-haut {
@@ -117,6 +198,7 @@ width: 10em;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  margin-right: 2%;
 }
 
 .hebergement-du-bas {
@@ -138,11 +220,12 @@ width: 10em;
 
 .Appart-populaire
 {
-    background-color: #f2f2f2;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 2%;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2em;
+  padding: 2%;
+  width: 86%;
 }
 
 .titre-logo-populaire-row {
@@ -150,6 +233,8 @@ width: 10em;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-top: 0%;
+  margin-bottom: 0%;
 }
 
 .Les-plus-populaires {
@@ -167,6 +252,7 @@ width: 10em;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: 2%;
 }
 
 .les-apparts-populaires {
@@ -229,6 +315,12 @@ width: 10em;
   margin-bottom: 15%;
   max-width: 1350px;
   margin-top: 15%;
+  align-items: center;
+  justify-content: center;
+}
+titre-Activités
+{
+  margin-right: 32%;
 }
 
 .Bloc-activités {
@@ -236,15 +328,16 @@ width: 10em;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
+  width: 100%;
 }
 
 .actvite-num-1 {
-  padding: 1%;
-  width: 95%;
+  width: 100%;
   height: auto;
   border-radius: 1em;
   box-shadow: 0 0 20px #0000002e;
-  margin-bottom: 3%;
+  margin-bottom: 10px;
+  padding-bottom: 0px;
 }
 
 .photo-activite1 {
@@ -265,12 +358,15 @@ width: 10em;
   display: flex;
   flex-direction: column;
   object-fit: cover;
+  width: 100%;
+  margin-top: -18px;
 }
 
 .activite2 {
   box-shadow: 0 0 20px #0000002e;
   border-radius: 20px;
-  margin: 0px 0px 20px 0px;
+  margin-top: 6%;
+  margin-bottom: 20px;
 }
 
 .img-petite-activite {
@@ -291,6 +387,7 @@ width: 10em;
   font-size: large;
   color: black;
   margin-left: 4%;
+  margin-bottom: 0px;
 }
 
 .titre-petite-activite {
@@ -299,18 +396,410 @@ width: 10em;
   color: black;
   margin-left: 4%;
   margin-top: 6%;
-  margin-bottom: 6%;
+  margin-bottom: 0%;
 }
 
 .activite3 {
   box-shadow: 0 0 20px #0000002e;
-  border-radius: 2em;
-  margin-bottom: 15%;
+  border-radius: 15px;
+  margin-bottom: 3%;
+}
+
+/***************FOOTER********************/
+.Bloc_footer_flebox {
+  justify-content: center;
+  color: rgb(72, 72, 72);
+  display: flex;
+  flex-direction: column;
+  -moz-box-direction: normal;
+  padding: 7%;
+}
+
+.Section_a_propos {
+  margin-bottom: 10%;
+}
+
+.A_propos_h3 {
+  box-sizing: border-box;
+  color: rgb(34, 34, 34);
+  font-family: 'Raleway', Arial, Verdana, sans-serif;
+  font-size: medium;
+  margin-bottom: 10%;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.A_propos_ul {
+  box-sizing: border-box;
+  color: rgb(72, 72, 72);
+  display: block;
+  font-family: 'Raleway',Circular, Georgia, Times New Roman, Times, serif;
+  font-size: small;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+}
+
+.Nav_du_haut_fontsize_family
+{
+  border-bottom: 3px solid #0065FC;
+  font-size: large;
+  margin-bottom: 0px;
+margin-left: -25%;
+flex-shrink: 1;
+}
+
+.Nav_du_haut_fontsize_family2
+{
+  margin-left: -31%;
+  font-family: 'Raleway', Arial Narrow, Arial, sans-serif;
+font-size: large;
+color: dodgerblue;
+flex-shrink: 1;
+}
+
+.Nav_du_haut_fontsize_family3
+{
+  flex-shrink: 1;
+  margin-left: -65%;
+  font-family: 'Raleway', Arial Narrow, Arial, sans-serif;
+  font-size: large;
+  color: dodgerblue;
+  font-weight: bold;
+}
+
+
+.precision-ol-activite
+{
+  padding-left: 0px;
+margin-bottom: 0px;
+margin-left: 20%;
+}
+
+.signup
+{
+  margin-left: -4%;
+  height: 56px;
+  margin-right: 73px;
+  margin-top: -34px;
+  flex-shrink: 1;
+}
+
+.Afficher-plus
+{
+  margin-left: 3%;
+}
+
+
+}
+
+@media screen and (max-width: 950x) {
+
+.logo_recherche_flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 6%;
+}
+
+.logo_reservia {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.hebergements-activites-sinscrire
+{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 30%;
+}
+
+.Titres_header_barre_recherche_flexcolumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.Trouvez_Enplein {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Filtres_flexrow {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+
+.bloc-filtres-wrap-4items
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.border-filtre-solid {
+  border: 2px solid #d9d9d9;
+  border-radius: 5em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 50px;
+  margin-bottom: 3%;
+  position: relative;
+  margin-right: 5%;
+}
+
+.categorie-filtre {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 13px;
+  margin-right: 8px;
+}
+
+.Appart-populaire {
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.Les-plus-populaires {
+  font-size: x-large;
+  font-weight: bold;
+  margin-right: 32%;
+  display: flex;
+}
+
+.logo-chart {
+  width: 5%;
+}
+
+.img-populaire-1 {
+  background-image: url(Ressources/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+  width: 40%;
+  height: 12em;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1em 0 0 1em;
+  object-fit: cover;
+}
+
+
+.img-populaire-3 {
+  background-image: url(Ressources/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+  width: 45%;
+  height: 10em;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1em 0 0 1em;
+  object-fit: cover;
+}
+
+.img-populaire-2 {
+  background-image: url(Ressources/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+  width: 45%;
+  height: 10em;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1em 0 0 1em;
+  object-fit: cover;
 }
 
 
 
+.les-apparts-populaires2 {
+height: auto;
+background-color: white;
+align-items: center;
+display: flex;
+border-radius: 1em;
+padding: 2%;
+box-shadow: 0 0 20px #0000002e;
+margin-top: 2%;
+margin-bottom: 2%;
+}
 
+.les-apparts-populaires {
+  height: auto;
+  background-color: white;
+  align-items: center;
+  display: flex;
+  border-radius: 1em;
+  padding: 2%;
+  box-shadow: 0 0 20px #0000002e;
+}
+
+.informations-populaires {
+  width: 40%;
+  margin-left: 15%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.activite2-3 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  margin-top: 2%;
+}
+
+
+.filtre-borderpx-radius-icone-wrap
+{
+  background-color: rgb(222, 235, 255);
+border-bottom-left-radius: 50%;
+border-bottom-right-radius: 50%;
+border-top-left-radius: 50%;
+border-top-right-radius: 50%;
+height: 50px;
+width: 45px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+/**********POPULAIRES*********/
+
+.titre-logo-populaire-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.Les-plus-populaires {
+  font-size: large;
+  font-weight: bold;
+  margin-right: 20%;
+}
+
+.logo-chart {
+  width: 9%;
+  height: 40%;
+  margin-top: 7%;
+}
+
+.img-populaire-1 {
+  background-image: url(Ressources/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+  width: 40%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1em 0 0 1em;
+  object-fit: cover;
+}
+
+.h3-populaire
+{
+  box-sizing:content-box;
+  display:block;
+  float:none;
+  line-height:normal;
+  position:static;
+  z-index:auto;
+  width:128.367px;
+  height: 48px;
+}
+
+
+/* HEBERGEMENT */
+
+.information-hebergement
+{
+  width: 100%;
+  height: 40%;
+  margin-top: -12px;
+}
+
+.img-hebergement-1 {
+  background-image: url(Ressources/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+  width: 100%;
+  height: 50%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1em 1em 0 0;
+}
+
+.img-hebergement-2 {
+    background-image: url(Ressources/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1em 1em 0 0;
+}
+
+.img-hebergement-3 {
+  background-image: url(Ressources/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+  width: 100%;
+  height: 50%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1em 1em 0 0;
+}
+
+.img-hebergement-4 {
+  background-image: url(Ressources/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+  width: 100%;
+  height: 50%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1em 1em 0 0;
+}
+
+.img-hebergement-5 {
+  background-image: url(Ressources/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+  width: 100%;
+  height: 50%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1em 1em 0 0;
+}
+
+.img-hebergement-6 {
+  background-image: url(Ressources/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+  width: 100%;
+  height: 50%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1em 1em 0 0;
+}
+
+
+/*ACTIVITES*/
+
+.activite2
+{
+margin-bottom: 4%;
+padding-bottom: 13px;
+}
+
+.activite3
+{
+  padding-bottom: 0px;
+}
+
+@media screen and (max-width: 1000px) {
+
+
+
+}
 
 
 }
