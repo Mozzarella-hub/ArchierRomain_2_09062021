@@ -10,16 +10,18 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 2%;
+    margin-top: -7px ;
+    align-items: center;
+    padding-top: 0px;
 }
 
 .logo-signup
 {
     display: flex;
-flex-direction: row;
-align-content: flex-start;
-align-items: center;
-justify-content: space-between;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
@@ -33,27 +35,31 @@ justify-content: space-between;
 
     text-decoration: #0065FC;
     color: #0065FC;
+    margin-right: 2rem;
+    margin-top: -7px;
 }
 
-.Nav_du_haut_fontsize_family:hover
+.Nav_du_haut_fontsize_family
 {
-text-decoration: #0065FC;
-color: #0065FC;
-border-top: 3px solid #0065FC;
+color: black;
+margin-right: 2rem;
+margin-top: 50px;
 }
 
-.Nav_du_haut_fontsize_family2:hover
+.Nav_du_haut_fontsize_family2
 {
-text-decoration: #0065FC;
-color: #0065FC;
-border-top: 3px solid #0065FC;
+color: black;
+margin-right: 2rem;
+margin-top: 50px;
 }
 
-.Nav_du_haut_fontsize_family3:hover
+.Nav_du_haut_fontsize_family3
 {
-text-decoration: #0065FC;
 color: #0065FC;
-border-top: 3px solid #0065FC;
+font-weight: bold;
+padding-top: 0px;
+margin-bottom: 20px;
+margin-top: 50px;
 }
 
 .heb-activ
@@ -61,6 +67,7 @@ border-top: 3px solid #0065FC;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: -17px;
 }
 
 
@@ -79,6 +86,7 @@ border-top: 3px solid #0065FC;
     padding-right: 0px;
     padding-top: 0px;
     align-items: center;
+    font-size: medium;
 }
 
 .Hébergements_Activités_Sinscrire {
@@ -92,8 +100,7 @@ border-top: 3px solid #0065FC;
 {
 font-family: 'Raleway', Arial Narrow, Arial, sans-serif;
 font-size: medium;
-color: dodgerblue;
-font-weight: bold;
+color:black;
 }
 
 
@@ -283,6 +290,7 @@ margin-right: 20px;
     flex-direction: row;
     margin-bottom: 2%;
     margin-top: 2%;
+    align-items: center;
 }
 
 
@@ -290,6 +298,7 @@ margin-right: 20px;
 .information
 {
     padding: 13px;
+    display: flex;
 }
 
 /*--------Appart prestation du haut*/
@@ -314,16 +323,17 @@ border-radius: 2em;
 flex: 2;
 padding: 1%;
 justify-content: space-around;
+height: 600px;
 }
 
 .backgroung-hebergement
 {
     background-color: white;
-padding: 1%;
-width: 30%;
-border-radius: 1em;
-box-shadow: 0 0 20px #0000002e;
-height: 12em;
+    padding: 1%;
+    width: 30%;
+    border-radius: 1em;
+    box-shadow: 0 0 20px #0000002e;
+    height: 12em;
 }
 
 .img-hebergement-1
@@ -401,7 +411,7 @@ height: 12em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 1%;
+  margin-top: 0%;
 }
 
 .information-hebergement
@@ -433,21 +443,27 @@ margin-top: 5px;
     margin-left: 1em;
     justify-content: space-between;
     flex: 1;
+    margin-bottom: 22px;
+    height: 577px;
 }
 
 .titre-logo-populaire-row
 {
     display: flex;
     justify-content: space-around;
-    margin-top: -4%;
-    margin-bottom: -9%;
+    margin-top: 0%;
+    margin-bottom: -26px;
+    width: 350.917px;
+    height: 50px;
 }
 
 .Les-plus-populaires
 {
-    font-size: x-large;
+    font-size: 1.25rem;
     font-weight: bold;
-    margin-right: 35%;
+    margin-right: 20%;
+   margin-bottom: 0px;
+   margin-top: 14px;
 }
 
 .lestobepopulaires
@@ -455,6 +471,8 @@ margin-top: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 
@@ -466,23 +484,32 @@ margin-top: 5px;
     display: flex;
     border-radius: 1em;
     padding: 2%;
-    box-shadow: 0 0 20px #0000002e;
+    box-shadow: 0 0 20px hsla(0, 0%, 0%, 0.18);
+    margin-bottom: 1%;
 }
 
 .les-apparts-populaires2
 {
-    height: auto;
+height: auto;
 background-color: white;
 align-items: center;
 display: flex;
 border-radius: 1em;
 padding: 2%;
-margin-top: 9%;
-margin-bottom: 9%;
+margin-top: 11%;
+margin-bottom: 11%;
 padding: 2%;
 box-shadow: 0 0 20px #0000002e;
+padding-top: 2%;
 }
 
+
+.p-txte2
+{
+    font-size: small;
+    margin-top: -33px;
+    margin-bottom: 8%;
+}
 
 .img-populaire-1
 {
@@ -662,8 +689,10 @@ width: 24%;
 
 .marseille-titre
 {
-    font-size: x-large;
-    font-family: 'Raleway', sans-serif;
+    font-size: 1.25rem;
+    font-family: 'Raleway', Arial, sans-serif;
+    margin-bottom: 0px;
+    margin-top: 14px;
 }
 
 
@@ -812,11 +841,6 @@ ul
     margin-left: 1%;
 }
 
-a:link 
-{ 
- text-decoration: none;
-} 
-
 .titre-logement
 {
     color: black;
@@ -839,12 +863,15 @@ a:link
 
 .logo-chart
 {
-    width: 9%;
-height: 40%;
-margin-top: 7%;
+width: 14%;
+margin-top: 5%;
+height: 39%;
 }
 
-
+.titre-pop-prix
+{
+    margin-bottom: 19%;
+}
 
 .information-icone
 {
@@ -892,8 +919,8 @@ margin-top: 7%;
 
 .titre-Activités
 {
-    font-size: xx-large;
-    font-family: 'raleway';
+    font-size: 1.25rem;
+    font-family: 'raleway',Arial, Helvetica, sans-serif;
 }
 
 .h1, h2,h3,p
@@ -904,7 +931,9 @@ margin-top: 7%;
 
 .p-txte 
 {
-    font-size: small
+    font-size: small;
+    margin-top: -33px;
+    margin-bottom: 8%;
 }
 
 .categorie-filtre:hover
@@ -923,4 +952,49 @@ margin-top: 7%;
 {
     margin-bottom: 0px;
 margin-top: 0px;
+}
+
+.modif-h3-populaire
+{
+    margin-top: 9px;
+    margin-bottom: 0px;
+    height: 83.333px;
+    width: 157.3px;
+}
+
+
+.fa-info
+{
+    color: #0065fc;
+    font-size: 1rem;
+}
+
+
+.contour-fa-info
+{
+    border: 1px solid;
+    border-color:#F2F2F2;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.a 
+{
+text-decoration: none;
+}
+
+a:link 
+{ 
+ text-decoration: none;
+} 
+
+.menu:hover
+{
+border-top: solid 2.5px;
+color: dodgerblue;
 }
