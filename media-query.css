@@ -10,9 +10,9 @@
 
 /****************************************/
 
-@media screen and (max-width: 625px) {
-
-  .h1, h2, h3, p 
+@media screen and (max-width: 700px) 
+{
+.h1, h2, h3, p 
   {
       font-family: 'Raleway', Arial, Verdana, sans-serif
   }
@@ -59,13 +59,14 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 91%;
+  width: 100%;
 }
 
-Nav_top
+.Nav_top
 {
   align-items: flex-start;
   padding-left: 38px;
+  width: 100%;
 }
 
 .Trouvez {
@@ -106,12 +107,12 @@ border-top-color: #f7f2f25e;
 .heb-activ {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; 
-  justify-content: space-between;
-  margin-top: 21%;
+  justify-content: space-around; 
   margin-left: 0px;
   border-bottom-style: solid;
   border-color: #d7cece87;
+  margin-top: 10%;
+  width: 39em;
 }
 
 .Titres_header_barre_recherche_flexcolumn {
@@ -120,12 +121,6 @@ border-top-color: #f7f2f25e;
   align-items: center;
   margin-bottom: 5%;
 }
-
-.precision-ol-activite menu
-{
-
-}
-
 
 /*******************FILTRE***********/
 .Filtres_flexrow {
@@ -139,13 +134,19 @@ border-top-color: #f7f2f25e;
 .filtres_bold {
   font-weight: bold;
   font-size: large;
-  margin-right: 75%;
+  margin-right: 0%;
 }
 
 .bloc-filtres-wrap-4items
 {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: unsafe;
   flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
 }
 
 .border-filtre-solid {
@@ -164,10 +165,16 @@ border-top-color: #f7f2f25e;
 .categorie-filtre {
   font-size: large;
   font-weight: bold;
-  margin-top: 13px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-top: 0px;
 }
+
+
 
 .filtre-borderpx-radius-icone-wrap
 {
@@ -217,6 +224,7 @@ margin-bottom: 6%;
   justify-content: space-between;
   align-items: center;
   margin-right: 2%;
+  margin-bottom: 5%;
 }
 
 .hebergement-du-bas {
@@ -253,17 +261,20 @@ margin-bottom: 6%;
   justify-content: center;
   margin-top: 0%;
   margin-bottom: 0%;
+  width: 100%;
 }
 
 .Les-plus-populaires {
   font-size: x-large;
   font-weight: bold;
-  margin-right: 14%;
+  margin-right: 44%;
   margin-top: 6%;
+
 }
 
 .logo-chart {
-  width: 9%;
+  height: 45%;
+  width: 7%;
 }
 
 .lestobepopulaires {
@@ -294,7 +305,7 @@ margin-bottom: 6%;
 }
 
 .informations-populaires {
-  width: 40%;
+  width: 35%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -332,7 +343,6 @@ margin-bottom: 6%;
   flex-direction: column;
   flex-wrap: wrap;
   margin-bottom: 15%;
-  max-width: 1350px;
   margin-top: 15%;
   align-items: center;
   justify-content: center;
@@ -340,13 +350,21 @@ margin-bottom: 6%;
 
 
 
-titre-Activités
+.titre-Activités
 {
   font-size: 1.75rem;
   font-family: 'raleway',Arial, Helvetica, sans-serif;
-  margin-right: 35%;}
+  margin-right: 35%;
+  width: 100%;
+margin-bottom: 5%;
+margin-left: 0%;
+}
 
-
+.titre-Activités
+{
+    display: flex;
+    width: 100%;
+}
 
 .Bloc-activités {
   display: flex;
@@ -498,6 +516,8 @@ margin-right: 87px;
   padding-top: 0px;
   margin-left: 0px;
   padding-right: 0px;
+  height: 20px;
+  margin-right: 0px;
 }
 
 .Nav_du_haut_fontsize_family3
@@ -511,8 +531,9 @@ margin-right: 87px;
   width: 82px;
   margin-right: 0px;
   padding-right: 0px;
-  margin-top: 24px;
-  margin-left: -84px;
+  margin-left: -100px;
+  margin-bottom: 18px;
+  margin-top: -59px;
 }
 
 
@@ -528,35 +549,52 @@ margin-right: 87px;
 
 .signup
 {
-  margin-top: -100px;
   margin-bottom: 32px;
   border-left-width: 0px;
   border-left-style: solid;
   margin-right: 0px;
-  margin-left: 0px;
-  padding-right: 0px;
+  width: 0px;
+  margin-left: -86px;
+  padding-right: 19px;
+  padding-top: 39px;
 }
 
 .Afficher-plus
 {
-  margin-left: 3%;
-  margin-top: -15px;
+  margin-left: 3%;  
+  font-size: 14px;
+  letter-spacing: 0.12em;
+  font-weight: 700;
+  line-height: 2;
+  margin-top: 0px;
 }
 
-.menu:hover
+.menu1:hover
 {
 border-top: none;
 border-bottom: solid 3.5px;
 color: dodgerblue;
-padding-bottom: 15px;
-margin-bottom: 16px;
-margin-top: 16px;
-padding-right: 0px;
-padding-left: 0px;
-margin-left: 51px;
-width: 129.367px;
-margin-right: 70px;
+margin-bottom: 0px;
+width: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
 }
+
+.menu2:hover
+{
+border-top: none;
+border-bottom: solid 3.5px;
+color: dodgerblue;
+margin-bottom: 0px;
+padding-right: 40px;
+width: 50%;
+padding-left: 1px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
 
 .Rechercher
 {
@@ -593,12 +631,51 @@ margin-right: 70px;
   height: 4.50em;
   width: 4.5rem;
 }
+}
 
+
+
+/*750 Px min Witdh media 2 */
+@media screen and (max-width:750px) 
+{
+
+.Bloc_footer_flebox
+  {
+    padding-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-left: 0px;
+  }
+
+  .hebergement-du-bas
+  {
+    flex-direction:row
+  }
+
+.hebergement-du-haut
+{
+  flex-direction: row;
+}
+
+.titre-Activités
+{
+  margin-right: 23rem;
+  font-size: 2.25rem;
+  display: flex;
+  justify-content: start;
+  width: 100%;
+}
 
 }
 
-@media screen and (min-width: 626px) and (max-width: 750x) {
 
+
+
+@media screen and (max-width: 900px) 
+{
+  
 .logo_recherche_flex {
     display: flex;
     flex-direction: row;
@@ -617,7 +694,7 @@ margin-right: 70px;
 {
   display: flex;
   justify-content: flex-end;
-  margin-left: 30%;
+  margin-left: 0px;
 }
 
 .Titres_header_barre_recherche_flexcolumn {
@@ -658,6 +735,9 @@ margin-right: 70px;
   margin-bottom: 3%;
   position: relative;
   margin-right: 5%;
+  width: auto;
+flex-wrap: wrap;
+justify-content: flex-start;
 }
 
 .categorie-filtre {
@@ -666,6 +746,11 @@ margin-right: 70px;
   margin-left: 10px;
   margin-top: 13px;
   margin-right: 8px;
+}
+
+.information-hebergement
+{
+  margin-top: 0px;
 }
 
 .Appart-populaire {
@@ -741,8 +826,8 @@ margin-bottom: 2%;
 }
 
 .informations-populaires {
-  width: 40%;
-  margin-left: 15%;
+  width: 35%;
+  margin-left: 0%;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -822,7 +907,7 @@ justify-content: center;
 {
   width: 100%;
   height: 40%;
-  margin-top: -12px;
+  margin-top: 0px;
 }
 
 .img-hebergement-1 {
@@ -882,6 +967,11 @@ justify-content: center;
 
 /*ACTIVITES*/
 
+.image-activite2
+{
+  height: 91%;
+}
+
 .activite2
 {
 margin-bottom: 4%;
@@ -893,41 +983,20 @@ padding-bottom: 13px;
   padding-bottom: 0px;
 }
 
-
-/*750 Px min Witdh media 2 */
-@media screen and (min-width: 626px )and(max-width:1024px) {
-  .Bloc_footer_flebox
-  {
-    padding-left: 0px;
-    margin-right: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    margin-left: 0px;
-  }
-
-  .hebergement-du-bas
-  {
-    flex-direction:row
-  }
-
-.hebergement-du-haut
+.informations-populaires
 {
-  flex-direction: row;
+  margin-left: 0px;
 }
 
-.titre-Activités
+.titre-activite-grande-photo
 {
-  margin-right: 23rem;
-  font-size: 2.25rem;
+  font-size: 15px;
 }
 
 }
-
-
 
 /*MEDIA POUR TABLETTE IPAD PRO du 14-07-2021 solution wrap ma gueule*/
-@media screen and (min-width: 751px )and(max-width:1024px)
+@media screen and (max-width:1024px)
 {
 
 .Filtres_flexrow
@@ -937,9 +1006,18 @@ flex-direction: column;
 
 .bloc-filtres-wrap-4items
 {
-height: 15rem;
-flex-direction: column;
+  margin: auto;
+  height: auto;
+  width: auto;
+  flex-direction: initial;
 }
+
+.Titres_header_barre_recherche_flexcolumn
+{
+  align-items: center;
+}
+
+
 
 .body-top
 {
@@ -959,32 +1037,94 @@ flex-direction: column;
 }
 
 
+.les-apparts-populaires
+{
+  width: 54%;
+  margin-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-right: 28em;
+}
+
+.img-populaire-1
+{
+width: 45%;
+height: 10rem;
+}
+
+.informations-populaires
+{
+  padding-left: 49px;
+  margin-left: 0px;
+  width: 40%;
+  font-size: 5px;
+  line-height: 0.8;
+  letter-spacing: -0.007em;
+}
+
+.etoile
+{
+  font-size: 12px;
+  line-height: 1.1;
+  letter-spacing: 0.174em;  
+}
+
+.les-apparts-populaires2
+{
+  width: 54%;
+  padding-left: 0px;
+  margin-bottom: 34px;
+  margin-top: 34px;
+  padding-right: 0px;
+  display: flex;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-left: 28em;
+}
+.img-populaire-2
+{
+  width: 45%;
+  height: 10rem;
+  margin-left: 0em;
+}
+
+.img-populaire-3
+{
+  height: 10rem;
+  width: 49%;
+}
+
+
 .titre-logo-populaire-row
 {
   width: auto;
   margin-bottom: 0px;
   margin-top: 0px
+  margin-bottom: 5em;
 }
 
 .Les-plus-populaires
 {
-  margin-bottom: 0px;
-  width: 344.567px;
-  margin-top: 16px;
-  height: 24px;
-  margin-left: 12px;
+  margin-bottom: -1px;
+  margin-top: 8px;
+  width: 601.567px;
+  height: 73px;
+  margin-left: 0px;
+  margin-right: 4em;
 }
 
 .logo-chart
 {
-  height: 52%;
-  margin-top: 2%;
-  margin-left: 105px;
+  margin-top: 5px;
+  margin-left: 9px;
+  height: 4.5em;
 }
 
 .master-bloc-activites
 {
-  margin-top: 9em;
+  margin-top: 0px;
 }
 
 .titre-petite-activite
@@ -992,19 +1132,26 @@ flex-direction: column;
   font-size: medium;
 }
 
+.image-activite2
+{
+  height: 91%;
+}
+
 .actvite-num-1
 {
-  height: 411.567px;
+  height: 417.567px;
 }
 
 .grande-photo-activite
 {
-  height: 22.5em;
+  height: 24em;
 }
 
 .titre-activite-grande-photo
 {
   height: 6%;
+  margin-top: 0%;
+  font-size: 15px;
 }
 
 .h2
@@ -1047,7 +1194,7 @@ margin-bottom: 0px;
 
 .border-filtre-solid
 {
-margin-right: 0px;
+  margin-right: 5%;
 margin-bottom: 2%;
 }
 
@@ -1078,21 +1225,23 @@ margin-top: 25px;
 
 .titre-logo-populaire-row
 {
-  margin-bottom: 0px;
 margin-top: 0%;
 width: 100%;
+margin-bottom: 2em;
 }
 
 .Les-plus-populaires
 {
-  margin-right: 63%;
-  margin-bottom: 0px;
   margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 2rem;
+  margin-right: 16em;
 }
 
 .logo-chart
 {
   width: auto;
+
 }
 
 .img-populaire-1
@@ -1105,7 +1254,7 @@ height: 10rem;
 {
   width: 33%;
 justify-content: center;
-margin-left: 16%;
+margin-left: 0%;
 height: 160px;
 }
 
@@ -1153,14 +1302,16 @@ font-size: medium;
 }
 
 
-/* /*MEDIA QUERY pour 1100 à 1270(peut-être ^^)* */
 
-.titre-logo-populaire-row
+/* /*MEDIA QUERY pour 1100 à 1270(peut-être ^^)* */
+@media screen and (max-width: 1200px)
+{
+
+  .titre-logo-populaire-row
 {
   width: 350.917px;
   height: 35px;
 }
-
 .Les-plus-populaires
 {
   margin-bottom: 0px;
@@ -1175,7 +1326,31 @@ font-size: medium;
   margin-top: 3%;
 }
 
+.titre-logo-populaire-row
+{
+  margin-bottom: 0px;margin-top: 0px;
+}
+
+.Les-plus-populaires
+{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  height: 45px;
+}
+
+.image-activite2
+{
+  height: 93%
+}
+
+}
+
+
+
 /*1280px et plus*/
+@media screen and (max-width:1400px)
+{
+
 .titre-logo-populaire-row
 {
   width: 100%;
@@ -1197,8 +1372,6 @@ font-size: medium;
   margin-top: 5px;
   margin-left: 9px;
 }
-
-
-
-
 }
+
+
