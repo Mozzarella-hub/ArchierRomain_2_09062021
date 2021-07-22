@@ -111,7 +111,7 @@ border-top-color: #f7f2f25e;
   margin-left: 0px;
   border-bottom-style: solid;
   border-color: #d7cece87;
-  margin-top: 10%;
+  margin-top: 10%;letter-spacing: normal;
 }
 
 .Titres_header_barre_recherche_flexcolumn {
@@ -1353,6 +1353,20 @@ font-size:small
 margin-bottom: 0px;
 }
 
+
+.titre-petite-activite2
+{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 15px;
+}
+
+.titre-activite-grande-photo2
+{
+  margin-top: 0px;
+  font-size: 15px;
+}
+
 .Trouvez_Enplein
 {
   align-items: center;
@@ -1468,6 +1482,12 @@ font-size: medium;
 {
   height: 505.733px;
 }
+
+.h2
+{
+  font-size: 15px;
+}
+
 
 }
 
