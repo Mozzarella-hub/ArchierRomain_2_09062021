@@ -639,6 +639,16 @@ font-size: large;
     margin-left: 4%;
 }
 
+.titre-activite-grande-photo2
+{
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    height: 15%;
+    margin-top: 3%;
+    margin-left: 4%;
+}
+
 
 .activite2-3
 {
@@ -670,6 +680,16 @@ width: 24%;
 }
 
 .titre-petite-activite
+{
+    margin-left: 10px;
+    padding: 0px;
+    font-family: 'Raleway', Arial, Verdana, sans-serif;
+    font-size: large;
+    color: black;
+    margin-left: 4%;
+}
+
+.titre-petite-activite2
 {
     margin-left: 10px;
     padding: 0px;
