@@ -1,3 +1,4 @@
+
 /*HEADER*/
 
 .style-header
@@ -992,7 +993,7 @@ margin-top: 0px;
 
 .contour-fa-info
 {
-    border: 1px solid;
+    border: 2px solid;
     border-color:#F2F2F2;
     border-radius: 25px;
     display: flex;
@@ -1028,4 +1029,17 @@ color: dodgerblue;
 .rechercher-loupe
 {
     display: none;
+}
+
+.ol
+{
+padding:0px;
+margin: 0px;
+display: block;
+list-style-type: decimal;
+margin-block-start: 0em;
+margin-block-end: 0em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+padding-inline-start: 0px;
 }
