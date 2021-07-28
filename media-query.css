@@ -85,7 +85,7 @@ padding: 0px;
   height: 10em;
   margin-top: 0px;
   margin-bottom: 15px;
-  width: auto;
+  width: 100%;
 }
 
 .logo_reservia {
@@ -106,23 +106,27 @@ padding: 0px;
 {
   display: flex;
   align-items: center;
-  width: auto;
+  width: 100%;
   flex-direction: column;
   margin-top: 0px;
  justify-content: space-around;
 }
 
+.nav-responsive
+{
+  width: 100%;
+}
+
 .Nav_top
 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   padding-left: 0px;
-  width: auto;
   flex-direction: column-reverse;
-  justify-content: space-around;
   margin-bottom: 0px;
   margin-top: 0px;
-  display: flex;
-  justify-content: space-around;
 }
 
 .Trouvez {
@@ -169,7 +173,6 @@ padding: 0px;
   flex-direction: row;
   justify-content: space-around; 
   margin-top: 38px;
-  width: 399px;
   margin-left: 0px;
   border-bottom-style: solid;
   border-color: #d7cece87;
@@ -177,6 +180,7 @@ padding: 0px;
   padding-bottom: 0px;
   height: 65px;
   align-items: center;
+  width: 100%;
 }
 
 .Titres_header_barre_recherche_flexcolumn {
@@ -337,7 +341,7 @@ margin-bottom: 2%;
 .modif-h3-populaire
 {
   margin-top: 0px;
-  font-size: 1.17em;
+  font-size: 1em;
 }
 
 .Appart-populaire
@@ -405,7 +409,7 @@ margin-bottom: 2%;
 }
 
 .informations-populaires {
-  width: 50%;
+  width: 42%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -426,7 +430,7 @@ margin-bottom: 2%;
   background-position: center;
   border-radius: 1em 0 0 1em;
   object-fit: cover;
-  margin-right: 5%;;
+  margin-right: 12%;
   margin-top: 0%;
   margin-bottom: 0%;
 }
@@ -618,14 +622,14 @@ width: auto;
   font-size: clamp(1.1rem, 4vw, 2rem);
   color: black;
   flex-shrink: 1;
-  height: 21px;
+  height: auto;
   margin-bottom: 0px;
   width: auto;
   padding-left: 0px;
   padding-top: 0px;
   margin-left: 0px;
   padding-right: 0px;
-  height: 20px;
+  height: auto;
   margin-right: 0px;
 }
 
@@ -659,7 +663,7 @@ width: auto;
 .signup
 {
   margin-top: -25px;
-  margin-left: 255px;
+  margin-left: 50%;
   border-left-width: 0px;
   border-left-style: solid;
   margin-right: 0px;
@@ -862,8 +866,10 @@ justify-content: flex-start;
   display: flex;
   justify-content: space-around;
   flex:none;
-  margin-bottom: 15%;
+  margin-bottom: 8%;
   margin-left: 0px;
+  padding-bottom: 14%;
+
 }
 
 .Les-plus-populaires {
@@ -1119,10 +1125,15 @@ font-size: 1.8rem;
 
 /*ACTIVITES*/
 
+.section-Bloc-activités
+{
+  padding: 1%;
+}
+
 .activite2-3 {
   display: flex;
   flex-direction: column;
-  width: 24%;
+  width: 47%;
   justify-content: space-between;
 }
 
@@ -1165,8 +1176,8 @@ height: 170px;
 .activite3
 {
   height: 170px;  
-  margin-top:55.9px;
-  margin-bottom: 0px;
+  margin-bottom: 7%;
+  margin-top: 6%;
   padding: 0px;
 }
 
@@ -1189,8 +1200,9 @@ font-size: 14px;
 {
   margin-bottom: 0px;
   padding-bottom: 0px;
-  height: 396px;
+  height: 306px;
   margin-top: 0px;
+  width: 47%;
 }
 
 
@@ -1215,9 +1227,9 @@ height: 17.55px;
 .titre-activite-grande-photo
 {
   font-size: 15px;
-  margin-top: 0px;
-  padding-top: 20px;
-  height: 28px;
+  height: 34px;
+padding-top: 0px;
+margin-top: -20px;
 }
 
 .titre-activite-grande-photo2
@@ -1293,7 +1305,7 @@ align-items: center;
   background-color: #f2f2f2;
   margin-bottom: 4%;
   margin-top: 0px;
-  padding: 4%
+  padding: 4%;
 }
 
 
@@ -1399,7 +1411,7 @@ height: 10rem;
 
 .image-activite2
 {
-  height: 91%;
+  height: 72%;
 }
 
 .actvite-num-1
