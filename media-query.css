@@ -93,7 +93,7 @@ padding: 0px;
   flex-wrap: wrap;
   margin-left: 0px;
   margin-top: 0px;
-  padding-top: 0px;
+  padding-top: 13px;
   margin-right: 0px;
   float: left;
   width: 50%;
@@ -262,8 +262,9 @@ padding: 0px;
 
 .contour-fa-info
 {
-  width: 50px;
-  height: 50px;
+  width: 85%;
+  height: 30px;
+  margin-bottom: 1em;
   margin-right: -10px;
 }
 
@@ -293,7 +294,7 @@ width: 95%;
 height: 13rem;
 border-radius: 1em;
 box-shadow: 0 0 20px #0000002e;
-margin-bottom: 2%;
+margin-bottom: 3%;
 }
 
 .Hebergement
@@ -336,6 +337,10 @@ margin-bottom: 2%;
   margin-left: 2%;
 }
 
+.prix-optim-bloc 
+{
+  margin-bottom: 4%;
+}
 
 /********POPULAIRE****************/
 .modif-h3-populaire
@@ -384,7 +389,7 @@ margin-bottom: 2%;
   flex-direction: column;
   justify-content: space-between;
   margin-bottom: 0px;
-  padding-bottom: 22%;
+  padding-bottom: 3%;
   padding-top: 5%;
 }
 
@@ -409,7 +414,7 @@ margin-bottom: 2%;
 }
 
 .informations-populaires {
-  width: 42%;
+  width: 50%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -430,7 +435,7 @@ margin-bottom: 2%;
   background-position: center;
   border-radius: 1em 0 0 1em;
   object-fit: cover;
-  margin-right: 12%;
+  margin-right: 5%;
   margin-top: 0%;
   margin-bottom: 0%;
 }
@@ -981,6 +986,8 @@ margin-top: 0px;
 margin-right: 44%;
 height: 51px;
 font-size: 1.8rem;
+display: flex;
+align-items: center;
 }
 
 .logo-chart {
@@ -1008,21 +1015,24 @@ font-size: 1.8rem;
 
 .h3-populaire
 {
-  box-sizing:content-box;
-  display:block;
   float:none;
   line-height:normal;
   position:static;
   z-index:auto;
   width:128.367px;
   height: 48px;
-  font-size: 10px;
+  font-size: 2em;
+  width: 100%;
+  padding-bottom: 7px;
 }
+
+
 .modif-h3-populaire
 {
   height: auto;
-  font-size: 15px;
-  margin-top: 19px;
+  font-size: inherit;
+  margin-top: 0px;
+  width: 100%;
 }
 
 .prix-populaire
@@ -1034,13 +1044,15 @@ font-size: 1.8rem;
 
 .p-txte
 {
-  margin-top: 0px;
+  margin-top: 10%;
   margin-bottom: 0px;
+  font-size: inherit;
 }
 
 .p-txte2
 {
-  margin-top: 0px;
+  margin-top: 10%;
+  font-size: inherit;
 }
 
 
@@ -1137,14 +1149,6 @@ font-size: 1.8rem;
   justify-content: space-between;
 }
 
-.titre-petite-activite
-{
-  font-size: 14px;
-  height: 16px;
-  margin-top: -19px;
-padding-bottom: 0px;
-margin-bottom: 0px;
-}
 .titre-petite-activite2
 {
   font-size: 14px;
@@ -1186,7 +1190,8 @@ height: 170px;
   margin-left: 17%;
 height: 160.283px;
 width: 27%;
-font-size: 14px;
+margin-left: 10%;
+width: 42%;
 }
 
 .titre-pop-prix
@@ -1196,57 +1201,142 @@ font-size: 14px;
   margin-top: 1px;
 }
 
+.titre-Activités
+{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 2%;
+}
+
 .actvite-num-1
 {
-  margin-bottom: 0px;
-  padding-bottom: 0px;
-  height: 306px;
-  margin-top: 0px;
-  width: 47%;
-}
-
-
-.photo-activite1
-{
-  height: 334px;
-}
-
-.grande-photo-activite
-{
-  height: 355px;
-  margin-top: 0px;
-}
-
-.h2
-{
-margin-bottom: 0px;
-margin-top: 25.45px;
-height: 17.55px;
+    width: 30%;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 0px;
+    height: 13em;
 }
 
 .titre-activite-grande-photo
 {
-  font-size: 15px;
-  height: 34px;
-padding-top: 0px;
-margin-top: -20px;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: large;
+  height: 21px;
+  margin-top: 7%;
+}
+
+.activite2-3
+{
+  flex-direction: row;
+  width: 67%;
+}
+
+.activite2
+{
+    width: 100%;
+    margin: 1em;
+}
+
+.activite3
+{
+  height: 14em;
+  width: 100%;
+  margin: 1em;
+}
+
+.grande-photo-activite
+{
+  height: 9.3em;
+}
+.master-bloc-activites
+{
+  margin-top: 0px;
+}
+
+.image-activite2
+{
+  height: 90%;
+}
+
+.actvite-num-1
+{
+ width: 42%;
+ margin-bottom: 0px;
+height: 23em;
+padding-bottom: 0px;
+}
+
+.photo-activite1
+{
+  height: 82%;
+}
+
+.grande-photo-activite
+{
+  height: 324px;
+}
+
+.titre-activite-grande-photo
+{
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  height: 2em;
+  margin-top: 26px;
+}
+
+.h2
+{
+font-size:small
+}
+
+.activite2-3
+{
+  height: 25em;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 2em;
+}
+
+.activite2
+{
+  margin-bottom: 16px;
+  height: 14em;
+}
+
+.titre-petite-activite
+{
+  margin-top: -8px;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  height: 20%;
+  padding: 0px;
+}
+
+.img-petite-activite
+{
+  height: 138px;
+}
+
+.titre-petite-activite2
+{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  height: 20%;
 }
 
 .titre-activite-grande-photo2
 {
-  font-size: 15px;
-  margin-top: 0px;
-  padding-top: 10px;
-  height: 28px;
-}
-
-.Bloc-activités
-{
+  margin-bottom: 0px;
   display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-between;
-align-items: center;
+  align-items: center;
+  height: 2em;
+  margin-top: 26px;
 }
 
 }
@@ -1347,10 +1437,7 @@ height: 10rem;
   display: flex;
   margin-left: 0px;
   width: 100%;
-  padding-left: 2px;
-  padding-bottom: 2px;
-  padding-right: 2px;
-  padding-top: 2px
+  padding: 1%;
 }
 
 
@@ -1399,36 +1486,89 @@ height: 10rem;
   width: 43px;
 }
 
+/******ACTIVITES**********/
+
+
+/*ACTIVITE*/
+
+.titre-Activités
+{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 2%;
+}
+
+.actvite-num-1
+{
+    width: 30%;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 0px;
+    height: 170px;
+}
+
+.titre-activite-grande-photo
+{
+  align-items: center;
+  justify-content: flex-start;
+  font-size: large;
+  height: 21px;
+  margin-top: 7%;
+}
+
+.activite2-3
+{
+  flex-direction: row;
+  width: 67%;
+}
+
+.activite2
+{
+  height: 13em;
+    width: 50%;
+    margin: 1em;
+}
+
+.activite3
+{
+  height: 170px;
+  width: 50%;
+  margin: 1em;
+  margin-left: 1.5%;
+}
+
+.grande-photo-activite
+{
+  height: 9.3em;
+}
 .master-bloc-activites
 {
   margin-top: 0px;
 }
 
-.titre-petite-activite
-{
-  font-size: medium;
-}
-
 .image-activite2
 {
-  height: 72%;
+  height: 90%;
 }
 
-.actvite-num-1
+.photo-activite1
 {
-  height: 417.567px;
+  height: 82%;
 }
 
 .grande-photo-activite
 {
-  height: 24em;
+  height: 125px;
 }
 
 .titre-activite-grande-photo
 {
-  height: 6%;
-  margin-top: 0%;
-  font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  height: 20%;
 }
 
 .h2
@@ -1438,33 +1578,48 @@ font-size:small
 
 .activite2-3
 {
-  height: 435.567px;
+  height: 13em;
 }
 
 .activite2
 {
   margin-bottom: 40px;
+  height: 170px;
 }
 
 .titre-petite-activite
 {
   margin-top: 0px;
-margin-bottom: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  height: 20%;
 }
 
+.img-petite-activite
+{
+  height: 138px;
+}
 
 .titre-petite-activite2
 {
-  margin-bottom: 0px;
   margin-top: 0px;
-  font-size: 15px;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  height: 20%;
 }
 
 .titre-activite-grande-photo2
 {
   margin-top: 0px;
-  font-size: 15px;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  height: 20%;
 }
+
+/***********RECHERCHE ET FILTRES**************/
 
 .Trouvez_Enplein
 {
@@ -1580,6 +1735,10 @@ font-size: medium;
   margin-bottom: 17%;
 }
 
+
+/*************ACTIVITE*********/
+
+/*
 .activite1
 {
   height: 460px;
@@ -1599,7 +1758,7 @@ font-size: medium;
 {
   font-size: 2.9rem;
 }
-
+*/
 .Afficher-plus
 {
   font-size: x-large;
@@ -1641,6 +1800,10 @@ font-size: medium;
   order: 2;
   padding: 2%;
 }
+.hebergement-du-haut
+{
+ margin-bottom: 2%;
+}
 .marseille-titre
 {
   font-size: xx-large;
@@ -1656,10 +1819,22 @@ font-size: medium;
 
 .les-apparts-populaires
 {
-  width: 144px;
+  width: 145px;
   padding: 0.5%;
   width: 31%;
+  height: 9em;
 }
+
+.informations-populaires
+{
+  height: 138.967px;
+}
+
+.prix-optim-bloc
+{
+  margin-bottom: 5px;
+}
+
 
 .les-apparts-populaires2
 {
@@ -1688,11 +1863,6 @@ font-size: medium;
   width: auto;
 }
 
-.titre-logo-populaire-row
-{
-  margin-bottom: 0px;margin-top: 0px;
-}
-
 .lestobepopulaires
 {
   flex-direction: row;
@@ -1700,10 +1870,7 @@ font-size: medium;
   margin-bottom: 3%;
 }
 
-.image-activite2
-{
-  height: 93%
-}
+/********ACTVITES***********/
 
 .marseille-titre
 {
@@ -1714,15 +1881,22 @@ font-size: medium;
   font-size: x-large;
 }
 
-.hebergement-du-haut
-{
- margin-bottom: 2%;
-}
+
 
 .Afficher-plus
 {
  margin-top: 2%;
  margin-bottom: 4%;
+}
+
+
+/*ACTIVITE*/
+
+.titre-Activités
+{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 2%;
 }
 
 .actvite-num-1
@@ -1747,7 +1921,7 @@ font-size: medium;
 .activite2-3
 {
   flex-direction: row;
-  width: 65%;
+  width: 67%;
 }
 
 .activite2
@@ -1759,7 +1933,7 @@ font-size: medium;
 
 .activite3
 {
-  height: 13em;
+  height: 170px;
   width: 50%;
   margin: 1em;
 }
@@ -1768,6 +1942,90 @@ font-size: medium;
 {
   height: 9.3em;
 }
+.master-bloc-activites
+{
+  margin-top: 0px;
+}
+
+.image-activite2
+{
+  height: 90%;
+}
+
+.actvite-num-1
+{
+  height: 170px;
+  margin-right: 13px;
+}
+
+.photo-activite1
+{
+  height: 82%;
+}
+
+.grande-photo-activite
+{
+  height: 125px;
+}
+
+.titre-activite-grande-photo
+{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  height: 20%;
+}
+
+.h2
+{
+font-size:small
+}
+
+.activite2-3
+{
+  height: 13em;
+}
+
+.activite2
+{
+  margin-bottom: 40px;
+  height: 170px;
+}
+
+.titre-petite-activite
+{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  height: 20%;
+}
+
+.img-petite-activite
+{
+  height: 138px;
+}
+
+.titre-petite-activite2
+{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  height: 20%;
+}
+
+.titre-activite-grande-photo2
+{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  height: 20%;
+}
+
+
 }
 
 
@@ -1801,7 +2059,8 @@ font-size: medium;
 {
   height: 93%;
 }
-*/
 }
+*/
+
 
 
