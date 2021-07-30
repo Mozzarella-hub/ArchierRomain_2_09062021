@@ -9,6 +9,35 @@
 
 
 /****************************************/
+@media screen and (max-width: 350px)
+{
+.etoile
+{
+  font-size: 3.5vw;
+}
+
+.p-txte
+{
+  font-size: 3.5vw;
+}
+
+.p-txte2
+{
+  font-size: 3.5vw;
+}
+
+.modif-h3-populaire
+{
+  font-size: 0.8em;
+}
+
+.rechercher-loupe
+{
+  width: 16%;
+}
+  
+}
+
 
 @media screen and (max-width: 700px) 
 {
@@ -355,7 +384,7 @@ margin-bottom: 3%;
   display: flex;
   flex-direction: column;
   padding: 3%;
-  padding-bottom: 8%;
+  padding-bottom: 17%;
   width: auto;
   border-radius: 0px;
   margin: 0px;
@@ -450,7 +479,11 @@ margin-bottom: 3%;
   object-fit: cover;
 }
 
-
+.titre-petite-activite2
+{
+  margin-top: 7%;
+  margin-bottom: 0px;
+}
 
 /****************ACTIVITES******************/
 .master-bloc-activites {
@@ -532,6 +565,7 @@ margin-left: 0%;
   background-position: center;
   border-radius: 1em 1em 0 0;
   object-fit: cover;
+  background-image: url(Ressources/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
 }
 
 .titre-activite-grande-photo {
