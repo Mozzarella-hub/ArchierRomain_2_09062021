@@ -884,9 +884,11 @@ footer .Bloc_footer_dimension
 }
 
 
-ul
+.ul
 {
-  list-style-type: none;
+    list-style-type: none;
+    border-top: solid 2.5px;
+    color: transparent;
 }
 
 
@@ -1043,6 +1045,16 @@ a:link
 { 
  text-decoration: none;
 } 
+
+.menu1{
+border-top: solid 2.5px;
+color: transparent;
+}
+
+.menu2{
+    border-top: solid 2.5px;
+    color: transparent;
+}
 
 .menu1:hover
 {

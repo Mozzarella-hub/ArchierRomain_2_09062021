@@ -53,6 +53,8 @@ ul
 {
 margin: 0px;
 padding: 0px;
+border-bottom: solid 2.5px;
+ color: transparent;
 }
 
 .fa, .fas
@@ -375,7 +377,8 @@ margin-bottom: 3%;
 .modif-h3-populaire
 {
   margin-top: 0px;
-  font-size: 1em;
+  font-size: 1.5vh;
+  width: auto;
 }
 
 .Appart-populaire
@@ -443,7 +446,7 @@ margin-bottom: 3%;
 }
 
 .informations-populaires {
-  width: 50%;
+  width: 44%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -464,7 +467,7 @@ margin-bottom: 3%;
   background-position: center;
   border-radius: 1em 0 0 1em;
   object-fit: cover;
-  margin-right: 5%;
+  margin-right: 9%;
   margin-top: 0%;
   margin-bottom: 0%;
 }
@@ -746,6 +749,7 @@ align-items: center;
 justify-content: center;
 height: 67px;
 }
+
 
 
 .Rechercher
@@ -1064,7 +1068,7 @@ align-items: center;
 .modif-h3-populaire
 {
   height: auto;
-  font-size: inherit;
+  font-size: 2.5vh;
   margin-top: 0px;
   width: 100%;
 }
@@ -1182,16 +1186,6 @@ align-items: center;
   width: 47%;
   justify-content: space-between;
 }
-
-.titre-petite-activite2
-{
-  font-size: 14px;
-margin-bottom: 0px;
-margin-top: -27px;
-padding-bottom: 0px;
-padding-top: 0px;
-}
-
 
 .image-activite2
 {
@@ -1360,8 +1354,9 @@ font-size:small
   margin-top: 0px;
   margin-bottom: 0px;
   display: flex;
-  align-items: center;
   height: 20%;
+  padding-bottom: 0px;
+  padding-top: 0px;
 }
 
 .titre-activite-grande-photo2
