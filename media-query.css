@@ -84,7 +84,7 @@ border-bottom: solid 2.5px;
 
 .h1, h2, h3, p 
   {
-      font-family: 'Raleway', Arial, Verdana, sans-serif
+      font-family: "Raleway", "Arial", "Verdana", "sans-serif";
   }
 
 
@@ -161,7 +161,7 @@ border-bottom: solid 2.5px;
 }
 
 .Trouvez {
-  font-family: "Raleway", Arial, Verdana, sans-serif;
+  font-family: "Raleway", "Arial", "Verdana", "sans-serif";
   font-size: x-large;
   margin-bottom: 0px;
   margin-left: 0px;
@@ -184,7 +184,7 @@ border-bottom: solid 2.5px;
 }
 
 .type-search {
-  font-family: "Raleway", Arial, Verdana, sans-serif;
+  font-family: "Raleway", "Arial", "Verdana", "sans-serif";
     font-weight: bold;
     height: 53px;
     font-size: clamp(1.2rem, 4vw, 2rem);
@@ -504,7 +504,7 @@ margin-bottom: 3%;
 .titre-Activités
 {
   font-size: 1.75rem;
-  font-family: 'raleway',Arial, Helvetica, sans-serif;
+  font-family: "Raleway","Arial", "Helvetica", "sans-serif";
   margin-right: 35%;
   width: 100%;
 margin-bottom: 5%;
@@ -572,7 +572,7 @@ margin-left: 0%;
 }
 
 .titre-activite-grande-photo {
-  font-family: 'Raleway', Arial, Verdana, sans-serif;
+  font-family: "Raleway", "Arial", "Verdana", "sans-serif";
   font-size: large;
   color: black;
   margin-left: 4%;
@@ -580,7 +580,7 @@ margin-left: 0%;
 }
 
 .titre-petite-activite {
-  font-family: 'Raleway', Arial, Verdana, sans-serif;
+  font-family: "Raleway", "Arial", "Verdana", "sans-serif";
   font-size: large;
   color: black;
   margin-left: 4%;
@@ -618,7 +618,7 @@ margin-left: 0%;
 .A_propos_h3 {
   box-sizing: border-box;
   color: rgb(34, 34, 34);
-  font-family: 'Raleway', Arial, Verdana, sans-serif;
+  font-family: "Raleway", "Arial", "Verdana", "sans-serif";
   font-size: medium;
   margin-bottom: 10%;
   text-transform: uppercase;
@@ -629,7 +629,7 @@ margin-left: 0%;
   box-sizing: border-box;
   color: transparent;
   display: block;
-  font-family: 'Raleway',Circular, Georgia, Times New Roman, Times, serif;
+  font-family: "Raleway","Circular", "Georgia", "Times New Roman", "Times", "serif";
   font-size: small;
   list-style-image: none;
   list-style-position: outside;
@@ -678,7 +678,7 @@ width: auto;
 .Nav_du_haut_fontsize_family3
 {
   flex-shrink: 1;
-  font-family: 'Raleway', Arial Narrow, Arial, sans-serif;
+  font-family: "Raleway", "Arial Narrow", "Arial", "sans-serif";
   font-size: clamp(1.1rem, 4vw, 2rem);
   color: dodgerblue;
   font-weight: bold;
@@ -734,7 +734,9 @@ justify-content: center;
 padding-left: 25px;
 padding-right: 25px;
 border-top: 0px;
-height: 67px;
+height: 88px;
+border-bottom: transparent;
+border-bottom: solid 2.5px;
 }
 
 .menu2
@@ -747,10 +749,20 @@ padding-left: 25px;
 display: flex;
 align-items: center;
 justify-content: center;
-height: 67px;
+height: 88px;
+border-bottom: transparent;
+border-bottom: solid 2.5px;
 }
 
+.heb-activ-ul
+{
+  width: 100%;
+}
 
+.signup-ul
+{
+  width: width: 120px;;
+}
 
 .Rechercher
 {

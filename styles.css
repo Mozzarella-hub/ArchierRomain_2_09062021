@@ -37,8 +37,19 @@
     text-decoration: #0065FC;
     color: #0065FC;
     margin-right: 2rem;
-    margin-top: -3%;
+    margin-top: 0px;
+    margin-bottom: 7px;
 }
+
+
+.signup-ul {
+
+    text-decoration: #0065FC;
+    margin-right: 2rem;
+    margin-top: -3%;
+    list-style-type : none
+}
+
 
 .Nav_du_haut_fontsize_family
 {
@@ -68,10 +79,17 @@ margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: -17px;
+    margin-top: 16px;
 }
 
-
+.heb-activ-ul
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -17px;
+    list-style-type : none
+}
 
 .Nav_top {
     display: flex;
@@ -99,11 +117,10 @@ margin-top: 50px;
 
 .Nav_du_haut_fontsize_family 
 {
-font-family: 'Raleway', Arial Narrow, Arial, sans-serif;
+font-family: "Raleway", "Arial Narrow", "Arial", "sans-serif";
 font-size: medium;
 color:black;
 }
-
 
 /*********************RECHERCHER*************************/
 
@@ -787,7 +804,6 @@ footer .Bloc_footer_dimension
     padding-left: 3%;
     padding-right: 8%;
     padding-top: 4%;
-    -moz-box-direction: normal;
 }
 
 .Section_a_propos {
@@ -799,7 +815,7 @@ footer .Bloc_footer_dimension
     flex-basis: 0%;
     flex-grow: 1;
     flex-shrink: 0;
-    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-family: "Raleway", "Arial Narrow", "Arial", "sans-serif";
     font-size: 14px;
     line-height: 20.0167px;
     margin-bottom: 0px;
@@ -811,7 +827,7 @@ footer .Bloc_footer_dimension
 .A_propos_h3 {
     box-sizing: border-box;
     color: rgb(34, 34, 34);
-    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-family: "Raleway","Arial Narrow", "Arial", "sans-serif";
     font-size: medium;
     line-height: 17.1667px;
     margin-bottom: 0px;
@@ -825,7 +841,7 @@ footer .Bloc_footer_dimension
     color: rgb(72, 72, 72);
     display: block;
     flex-wrap: wrap;
-    font-family: 'Raleway',Circular, Georgia, Times New Roman, Times, serif;
+    font-family: "Raleway", "Georgia", "Times New Roman", "serif";
     font-size: 14px;
     line-height: 20.0167px;
     list-style-image: none;
@@ -839,13 +855,15 @@ footer .Bloc_footer_dimension
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 .Fonctionnement_du_site {
     box-sizing: border-box;
     color: rgb(72, 72, 72);
     flex-basis: 33.3333%;
-    font-family: 'Raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Raleway","Arial Narrow", "Arial", "sans-serif";
     font-size: 14px;
     line-height: 20.0167px;
     list-style-image: none;
@@ -862,7 +880,7 @@ footer .Bloc_footer_dimension
 .texte_font_size_icone_filtre {
     font-size: small;
     font-weight: bold;
-    font-family: 'Raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Raleway", "Arial Narrow", "Arial", "sans-serif";
 }
 
 .iconechart
@@ -889,6 +907,8 @@ footer .Bloc_footer_dimension
     list-style-type: none;
     border-top: solid 2.5px;
     color: transparent;
+    flex-direction: row;
+display: flex;
 }
 
 
