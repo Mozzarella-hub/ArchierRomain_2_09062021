@@ -627,7 +627,7 @@ margin-left: 0%;
 
 .A_propos_ul {
   box-sizing: border-box;
-  color: rgb(72, 72, 72);
+  color: transparent;
   display: block;
   font-family: 'Raleway',Circular, Georgia, Times New Roman, Times, serif;
   font-size: small;

@@ -791,7 +791,7 @@ footer .Bloc_footer_dimension
 }
 
 .Section_a_propos {
-    border-bottom-color: rgb(72, 72, 72);
+    border-bottom-color:transparent;
     border-bottom-style: none;
     border-bottom-width: 0px;
     box-sizing: border-box;
