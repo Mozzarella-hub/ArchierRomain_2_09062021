@@ -761,7 +761,7 @@ border-bottom: solid 2.5px;
 
 .signup-ul
 {
-  width: width: 120px;;
+  width: 120px;;
 }
 
 .Rechercher
@@ -1071,7 +1071,7 @@ align-items: center;
   z-index:auto;
   width:128.367px;
   height: 48px;
-  font-size: 2em;
+
   width: 100%;
   padding-bottom: 7px;
 }
@@ -1080,7 +1080,7 @@ align-items: center;
 .modif-h3-populaire
 {
   height: auto;
-  font-size: 2.5vh;
+  
   margin-top: 0px;
   width: 100%;
 }
