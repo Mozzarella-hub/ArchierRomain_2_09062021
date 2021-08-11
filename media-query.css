@@ -209,7 +209,7 @@ border-bottom: solid 2.5px;
   border-color: #d7cece87;
   margin-bottom: 0px;
   padding-bottom: 0px;
-  height: 65px;
+  height: 40px;
   align-items: center;
   width: 100%;
 }
@@ -339,7 +339,7 @@ margin-bottom: 3%;
   flex-wrap: wrap;
   order: 1;
   margin-top: 4%;
-  width: 100%;
+  width: fit-content;
 }
 
 .hebergement-du-haut {
@@ -388,7 +388,7 @@ margin-bottom: 3%;
   flex-direction: column;
   padding: 3%;
   padding-bottom: 17%;
-  width: auto;
+  width: fit-content;
   border-radius: 0px;
   margin: 0px;
 }
@@ -687,7 +687,7 @@ width: auto;
   margin-right: 0px;
   padding-right: 0px;
   margin-left: 40px;
-  margin-bottom: 0px;
+  margin-bottom: 14%;
   margin-top: 0px;
 }
 
@@ -731,12 +731,13 @@ width: 50%;
 display: flex;
 align-items: center;
 justify-content: center;
-padding-left: 25px;
-padding-right: 25px;
+padding-right: 0px;
+padding-left: 10px;
 border-top: 0px;
-height: 88px;
+height: 62px;
 border-bottom: transparent;
 border-bottom: solid 2.5px;
+padding-left: 0px;
 }
 
 .menu2
@@ -745,13 +746,14 @@ border-top: 0px;
 margin-bottom: 0px;
 padding-right: 25px;
 width: 50%;
-padding-left: 25px;
+padding-left: 0px;
 display: flex;
 align-items: center;
 justify-content: center;
-height: 88px;
+height: 62px;
 border-bottom: transparent;
 border-bottom: solid 2.5px;
+padding-right: 0px;
 }
 
 .heb-activ-ul
